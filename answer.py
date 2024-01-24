@@ -7,8 +7,10 @@ def hello_world():
     print("Hello, World!")
 
 def add(a,b):
-
-    # Write simple code to add variable a and b
+    """
+        This function takes two numeric parameters and returns their sum
+    """
+    # Assignment to store the sum of parameters
     output = a + b
-
+    # Returning the sum
     return output
